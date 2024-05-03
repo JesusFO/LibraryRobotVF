@@ -3,7 +3,7 @@
 #include "IngresoDatos.h"
 using namespace System;
 
-namespace RobotBibliotecaModel {
+namespace LibraryRobotVFModel {
 
 	public ref class Registro: IngresoDatos {
 

@@ -1,6 +1,6 @@
 #include "ConstanciaDePrestamo.h"
 
-using namespace RobotBibliotecaModel;
+using namespace LibraryRobotVFModel;
 
 ConstanciaDePrestamo::ConstanciaDePrestamo() : DatosPrestamo() {
 

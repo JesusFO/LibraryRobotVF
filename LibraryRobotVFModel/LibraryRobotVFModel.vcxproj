@@ -25,10 +25,15 @@
     <ClInclude Include="..\Robot.h" />
     <ClInclude Include="..\SeguimientoPrestamo.h" />
     <ClInclude Include="..\ValoracionEntrega.h" />
+    <ClInclude Include="Biblioteca.h" />
+    <ClInclude Include="Bibliotecario.h" />
     <ClInclude Include="ConstanciaDePrestamo.h" />
     <ClInclude Include="IngresoDatos.h" />
+    <ClInclude Include="Libro.h" />
     <ClInclude Include="Notificacion.h" />
     <ClInclude Include="Registro.h" />
+    <ClInclude Include="Repositorio.h" />
+    <ClInclude Include="SolicitudMantenimiento.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
@@ -38,10 +43,15 @@
     <ClCompile Include="..\Robot.cpp" />
     <ClCompile Include="..\SeguimientoPrestamo.cpp" />
     <ClCompile Include="..\ValoracionEntrega.cpp" />
+    <ClCompile Include="Biblioteca.cpp" />
+    <ClCompile Include="Bibliotecario.cpp" />
     <ClCompile Include="ConstanciaDePrestamo.cpp" />
     <ClCompile Include="IngresoDatos.cpp" />
+    <ClCompile Include="Libro.cpp" />
     <ClCompile Include="Notificacion.cpp" />
     <ClCompile Include="Registro.cpp" />
+    <ClCompile Include="Repositorio.cpp" />
+    <ClCompile Include="SolicitudMantenimiento.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

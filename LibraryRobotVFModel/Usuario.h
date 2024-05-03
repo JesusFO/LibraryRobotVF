@@ -4,7 +4,7 @@
 
 using namespace System;
 
-namespace RobotBibliotecaModel {
+namespace LibraryRobotVFModel {
 
 	public ref class Usuario : IngresoDatos {
 	private:
