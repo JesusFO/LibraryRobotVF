@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DetalleEntrega.h" />
+    <ClInclude Include="..\Mantenimiento.h" />
+    <ClInclude Include="..\Microcontrolador.h" />
+    <ClInclude Include="..\Robot.h" />
+    <ClInclude Include="..\SeguimientoPrestamo.h" />
+    <ClInclude Include="..\ValoracionEntrega.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DetalleEntrega.cpp" />
+    <ClCompile Include="..\Mantenimiento.cpp" />
+    <ClCompile Include="..\Microcontrolador.cpp" />
+    <ClCompile Include="..\Robot.cpp" />
+    <ClCompile Include="..\SeguimientoPrestamo.cpp" />
+    <ClCompile Include="..\ValoracionEntrega.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{56F7C4D4-B610-48E7-89FD-68505E0474AB}</ProjectGuid>
@@ -110,8 +126,6 @@
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
