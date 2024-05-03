@@ -18,58 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\DetalleEntrega.h" />
-    <ClInclude Include="..\Mantenimiento.h" />
-    <ClInclude Include="..\Microcontrolador.h" />
-    <ClInclude Include="..\Robot.h" />
-    <ClInclude Include="..\SeguimientoPrestamo.h" />
-    <ClInclude Include="..\ValoracionEntrega.h" />
-    <ClInclude Include="Biblioteca.h" />
-    <ClInclude Include="Bibliotecario.h" />
-    <ClInclude Include="ConstanciaDePrestamo.h" />
-    <ClInclude Include="DatosPrestamo.h" />
-    <ClInclude Include="Devolucion.h" />
-    <ClInclude Include="IngresoDatos.h" />
-    <ClInclude Include="Libro.h" />
-    <ClInclude Include="Multa.h" />
-    <ClInclude Include="Notificacion.h" />
-    <ClInclude Include="Registro.h" />
-    <ClInclude Include="Repositorio.h" />
-    <ClInclude Include="SolicitudMantenimiento.h" />
-    <ClInclude Include="SolicitudPrestamo.h" />
-    <ClInclude Include="Usuario.h" />
-    <ClInclude Include="ValidacionSolicitud.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\DetalleEntrega.cpp" />
-    <ClCompile Include="..\Mantenimiento.cpp" />
-    <ClCompile Include="..\Microcontrolador.cpp" />
-    <ClCompile Include="..\Robot.cpp" />
-    <ClCompile Include="..\SeguimientoPrestamo.cpp" />
-    <ClCompile Include="..\ValoracionEntrega.cpp" />
-    <ClCompile Include="Biblioteca.cpp" />
-    <ClCompile Include="Bibliotecario.cpp" />
-    <ClCompile Include="ConstanciaDePrestamo.cpp" />
-    <ClCompile Include="DatosPrestamo.cpp" />
-    <ClCompile Include="Devolucion.cpp" />
-    <ClCompile Include="IngresoDatos.cpp" />
-    <ClCompile Include="Libro.cpp" />
-    <ClCompile Include="Multa.cpp" />
-    <ClCompile Include="Notificacion.cpp" />
-    <ClCompile Include="Registro.cpp" />
-    <ClCompile Include="Repositorio.cpp" />
-    <ClCompile Include="SolicitudMantenimiento.cpp" />
-    <ClCompile Include="SolicitudPrestamo.cpp" />
-    <ClCompile Include="Usuario.cpp" />
-    <ClCompile Include="ValidacionSolicitud.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{56F7C4D4-B610-48E7-89FD-68505E0474AB}</ProjectGuid>
+    <ProjectGuid>{AF1B2E3D-E2C0-44AD-9D71-200EE487D214}</ProjectGuid>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
-    <RootNamespace>LibraryRobotVFModel</RootNamespace>
+    <RootNamespace>LibraryRobotVFController</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -156,6 +110,11 @@
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryRobotVFModel\LibraryRobotVFModel.vcxproj">
+      <Project>{56f7c4d4-b610-48e7-89fd-68505e0474ab}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
