@@ -25,6 +25,11 @@
     <ClInclude Include="..\Robot.h" />
     <ClInclude Include="..\SeguimientoPrestamo.h" />
     <ClInclude Include="..\ValoracionEntrega.h" />
+    <ClInclude Include="ConstanciaDePrestamo.h" />
+    <ClInclude Include="IngresoDatos.h" />
+    <ClInclude Include="Notificacion.h" />
+    <ClInclude Include="Registro.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\DetalleEntrega.cpp" />
@@ -33,6 +38,11 @@
     <ClCompile Include="..\Robot.cpp" />
     <ClCompile Include="..\SeguimientoPrestamo.cpp" />
     <ClCompile Include="..\ValoracionEntrega.cpp" />
+    <ClCompile Include="ConstanciaDePrestamo.cpp" />
+    <ClCompile Include="IngresoDatos.cpp" />
+    <ClCompile Include="Notificacion.cpp" />
+    <ClCompile Include="Registro.cpp" />
+    <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
